@@ -4,7 +4,6 @@ class Question
 
   def initialize(player)
     @current_player = player
-
     @num1 = Random.rand(1..20)
     @num2 = Random.rand(1..20)
     @answer = @num1 + @num2

@@ -40,7 +40,6 @@ attr_accessor :player_one, :player_two
         else winner = @player_one
         end
         return puts "-------#{winner.name.upcase} WINS!! -------"
-
       end
     end
     summary
