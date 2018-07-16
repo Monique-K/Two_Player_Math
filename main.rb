@@ -1,14 +1,8 @@
-class Game
-  who wins (compare scores)
-  if game has been won or not
-    whose turn is it (current_player)
-
-class Player
-  individual score
-  answers to qs
-
-class Turn
-  order of moves
-  generate question
+require './Player.rb'
+require './Question.rb'
+require './Game.rb'
 
 
+#### START GAME ####
+game = Game.new
+game.play
